@@ -1,0 +1,78 @@
+{
+  "title": "Whispers in the Pines",
+  "episode": "ep01_campfire",
+  "fps": 24,
+  "characters": {
+    "Leo": {
+      "model": "assets/characters/Soldier.glb",
+      "voice": "en-US-ChristopherNeural",
+      "position": [
+        -1.45,
+        0.0,
+        0.0
+      ],
+      "rotation_z_deg": 90.0,
+      "target_height": 1.75
+    },
+    "Mia": {
+      "model": "assets/characters/Michelle.glb",
+      "voice": "en-US-AriaNeural",
+      "position": [
+        1.45,
+        0.0,
+        0.0
+      ],
+      "rotation_z_deg": -90.0,
+      "target_height": 1.68
+    }
+  },
+  "total_frames": 248,
+  "total_duration_sec": 10.333333333333334,
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "speaker": "Leo",
+      "camera": "Cam_Wide",
+      "text": "Mia... do you hear that?",
+      "audio_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_01_Leo.mp3",
+      "audio_file_rel": "audio/shot_01_Leo.mp3",
+      "srt_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_01_Leo.srt",
+      "audio_duration_sec": 2.4,
+      "duration_frames": 58,
+      "pause_frames": 8,
+      "start_frame": 1,
+      "end_frame": 66,
+      "total_shot_frames": 66
+    },
+    {
+      "shot_id": "shot_02",
+      "speaker": "Mia",
+      "camera": "Cam_CloseUp_Mia",
+      "text": "Something is watching us from the trees.",
+      "audio_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_02_Mia.mp3",
+      "audio_file_rel": "audio/shot_02_Mia.mp3",
+      "srt_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_02_Mia.srt",
+      "audio_duration_sec": 3.024,
+      "duration_frames": 73,
+      "pause_frames": 8,
+      "start_frame": 67,
+      "end_frame": 147,
+      "total_shot_frames": 81
+    },
+    {
+      "shot_id": "shot_03",
+      "speaker": "Leo",
+      "camera": "Cam_CloseUp_Leo",
+      "text": "Don't move. Look into the dark.",
+      "audio_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_03_Leo.mp3",
+      "audio_file_rel": "audio/shot_03_Leo.mp3",
+      "srt_file": "E:/Files/GitHub 2/ShortMovieStudio/episodes/ep01_campfire/audio/shot_03_Leo.srt",
+      "audio_duration_sec": 3.72,
+      "duration_frames": 89,
+      "pause_frames": 12,
+      "start_frame": 148,
+      "end_frame": 248,
+      "total_shot_frames": 101
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Whispers in the Pines",
+  "episode": "ep01_campfire",
+  "fps": 24,
+  "characters": {
+    "Leo": {
+      "model": "assets/characters/Soldier.glb",
+      "voice": "en-US-ChristopherNeural",
+      "position": [-1.45, 0.0, 0.0],
+      "rotation_z_deg": 90.0,
+      "target_height": 1.75
+    },
+    "Mia": {
+      "model": "assets/characters/Michelle.glb",
+      "voice": "en-US-AriaNeural",
+      "position": [1.45, 0.0, 0.0],
+      "rotation_z_deg": -90.0,
+      "target_height": 1.68
+    }
+  },
+  "shots": [
+    {
+      "shot_id": "shot_01",
+      "camera": "Cam_Wide",
+      "speaker": "Leo",
+      "text": "Mia... do you hear that?",
+      "pause_after_sec": 0.35
+    },
+    {
+      "shot_id": "shot_02",
+      "camera": "Cam_CloseUp_Mia",
+      "speaker": "Mia",
+      "text": "Something is watching us from the trees.",
+      "pause_after_sec": 0.35
+    },
+    {
+      "shot_id": "shot_03",
+      "camera": "Cam_CloseUp_Leo",
+      "speaker": "Leo",
+      "text": "Don't move. Look into the dark.",
+      "pause_after_sec": 0.5
+    }
+  ]
+}
